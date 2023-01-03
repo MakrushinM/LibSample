@@ -14,6 +14,7 @@ import com.max.common_ui.SampleComposable
 import com.max.libsample.ui.theme.LibSampleTheme
 
 class MainActivity : ComponentActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
@@ -28,6 +29,7 @@ class MainActivity : ComponentActivity() {
             }
         }
     }
+
 }
 
 @Composable
